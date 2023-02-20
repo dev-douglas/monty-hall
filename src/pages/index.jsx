@@ -1,9 +1,11 @@
-import Presente from "@/components/presente"
+import Porta from "@/components/porta"
 
 export default function Home() {
   return (
-    <div>
-      <Presente />
+    <div style={{display: 'flex'}}>
+      <Porta />
+      <Porta selecionada/>
+      <Porta />
     </div>
   )
 }
