@@ -1,4 +1,4 @@
-import styles from "./style.module.css"
+import styles from "./styles.module.css"
 import PortaModel from "@/model/porta"
 import Presente from '@/components/presente'
 interface PortaProps {
