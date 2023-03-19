@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 import PortaModel from "@/model/porta"
-import Presente from '@/components/presente'
+import Presente from '~/components/presente'
 interface PortaProps {
   value: PortaModel
   onChange: (novaPorta: PortaModel) => void
